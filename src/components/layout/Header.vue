@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="rhombus">&nbsp;</div>
-      <img src="/planet.jpg"/ width="90px" height="90px">
+      <img src="/planet.jpg" width="90px" height="90px">
     <div class="location-info">
       <div class="location-row" id="planet-year">
         <div id="planet">
