@@ -91,7 +91,7 @@ export default {
     return {
       "mission_slug": "005",
       "current_md": "",
-      "events": "",
+      "events": "001",
       "missions": [
         {
           "slug": "005",
@@ -142,7 +142,7 @@ export default {
         "headerTitle": "HA",
         "headerSubtitle": "Harrison Armory",
         "subheaderTitle": "Rendezvous",
-        "subheaderSubtitle": "Night Side Traversal",
+        "subheaderSubtitle": "RDI Remote Campus",
       },
       "options":{
         "eventsMarkdownPerMission": true
