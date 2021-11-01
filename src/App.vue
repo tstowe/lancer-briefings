@@ -91,7 +91,7 @@ export default {
     return {
       "mission_slug": "005",
       "current_md": "",
-      "events": "001",
+      "events": "",
       "missions": [
         {
           "slug": "005",
