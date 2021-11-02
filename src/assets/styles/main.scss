@@ -506,7 +506,7 @@ section .section-header {
 
   .mech-loadout {
     width: 250px;
-    display: flex;
+    display: none;
     flex-direction: column;
     row-gap: 0px;
     text-align: right;
@@ -519,6 +519,7 @@ section .section-header {
   }
 
   .mech-portrait {
+    display: none;
     width: 104px;
     height: 136px;
     object-fit: cover;
