@@ -134,15 +134,15 @@ export default {
         },
       ],
       "header": {
-        "planet": "Ras Shamra",
+        "planet": "Cradle - New Dharamshala, India",
         "year": "5016u",
-        "system": "Ptah",
-        "gate": "Capitol",
-        "ring": "Rocky Mountain-Line",
+        "system": "Sol",
+        "gate": "Aconcagua",
+        "ring": "Sol/Andes Line",
         "headerTitle": "HA",
-        "headerSubtitle": "Harrison Armory",
-        "subheaderTitle": "Rendezvous",
-        "subheaderSubtitle": "RDI Remote Campus",
+        "headerSubtitle": "Dr.Sola Emmanuel",
+        "subheaderTitle": "Extraction",
+        "subheaderSubtitle": "UIB Lab",
       },
       "options":{
         "eventsMarkdownPerMission": true
