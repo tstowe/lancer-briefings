@@ -139,7 +139,7 @@ export default {
         },
       ],
       "header": {
-        "planet": "Cradle - New Dharamshala",
+        "planet": "Cradle",
         "year": "5016u",
         "system": "Sol",
         "gate": "Aconcagua",
