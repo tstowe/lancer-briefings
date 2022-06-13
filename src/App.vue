@@ -66,7 +66,7 @@
     </defs>
   </svg>
   <audio autoplay>
-    <source src="/startup.ogg" type="audio/ogg" />
+    <source src="startup.ogg" type="audio/ogg" />
   </audio>
   <Footer/>
 </template>
@@ -89,13 +89,18 @@ export default {
 
   data() {
     return {
-      "mission_slug": "005",
-      "current_md": "",
+      "mission_slug": "006",
+      "current_md": "006",
       "events": "",
       "missions": [
         {
           "slug": "005",
           "name": "Gone Fishin'",
+          "status": "success"
+        },
+        {
+          "slug": "006",
+          "name": "Cradle Robbers",
           "status": "start"
         },
       ],
@@ -134,15 +139,15 @@ export default {
         },
       ],
       "header": {
-        "planet": "Cradle - New Dharamshala, India",
+        "planet": "Cradle - New Dharamshala",
         "year": "5016u",
         "system": "Sol",
         "gate": "Aconcagua",
         "ring": "Sol/Andes Line",
-        "headerTitle": "HA",
-        "headerSubtitle": "Dr.Sola Emmanuel",
-        "subheaderTitle": "Extraction",
-        "subheaderSubtitle": "UIB Lab",
+        "headerTitle": "Dr. Sola Emmanuel",
+        "headerSubtitle": "SQUADRON GG",
+        "subheaderTitle": "Extraction ",
+        "subheaderSubtitle": "Infiltrate UIB Lab",
       },
       "options":{
         "eventsMarkdownPerMission": true
