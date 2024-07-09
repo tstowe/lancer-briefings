@@ -89,8 +89,8 @@ export default {
 
   data() {
     return {
-      "mission_slug": "006",
-      "current_md": "006",
+      "mission_slug": "007",
+      "current_md": "007",
       "events": "",
       "missions": [
         {
@@ -101,8 +101,13 @@ export default {
         {
           "slug": "006",
           "name": "Cradle Robbers",
-          "status": "start"
+          "status": "success"
         },
+        {
+          "slug": "007",
+          "name": "Don't Throw Stones",
+          "status": "start"
+        }
       ],
       "pilots": [
         {
@@ -112,6 +117,14 @@ export default {
           "corpro": "IPS-N",
           "frame": "Lancaster",
           "mech": "Junkyard Dog"
+        },
+        {
+          "callsign": "Plasma Viper",
+          "alias": "Plisken",
+          "code": "",
+          "corpro": "SSC",
+          "frame": "Dusk Wing",
+          "mech": "Spare Shadow"
         },
         {
           "callsign": "Ringer",
@@ -139,15 +152,15 @@ export default {
         },
       ],
       "header": {
-        "planet": "Cradle - New Dharamshala",
+        "planet": "Ispahsalar - The Ranch",
         "year": "5016u",
-        "system": "Sol",
-        "gate": "Aconcagua",
-        "ring": "Sol/Andes Line",
-        "headerTitle": "Dr. Sola Emmanuel",
+        "system": "The Baronic Concern",
+        "gate": "Grand Teton",
+        "ring": "Rocky Mountain Line",
+        "headerTitle": "Lord Otto Emmanuel",
         "headerSubtitle": "SQUADRON GG",
-        "subheaderTitle": "Extraction ",
-        "subheaderSubtitle": "Infiltrate UIB Lab",
+        "subheaderTitle": "Support ",
+        "subheaderSubtitle": "Compete in the House Games",
       },
       "options":{
         "eventsMarkdownPerMission": true
